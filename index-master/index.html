@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- kopplar till css filen -->
+    <link rel="stylesheet" href="CSS/css.css">
+    <title>KRippa</title>
+  </head>
+  <body>
+<!-- använder mig av banner klassen i CSS filen, lägger in en refresh knapp och en github länk-->
+      <div class="banner"> 
+          <a href="index.html">Refresh</a>
+          <a href="https://github.com/krillzon">Github</a>
+      </div>
+      <!--  här börjar jag referera till alla CSS filer och alla divvar som jag deklarerat i alla javascript filerna-->
+    <!-- de olika css stilerna är header,section och aside som alla har olika "typsnitt" -->
+  <header>
+  <code id ="weather"></code>
+  
+  </header>
+
+  <header>
+  <code id ="klocka"></code>
+</header>
+
+  
+<section>
+
+  <code id ="twitch"></code>
+</section>
+
+
+  <aside>
+    <code id = "systembolaget"></code>
+  </aside>
+   
+  <aside>
+
+    <code id = "vantetider"></code>
+
+  </aside>
+  
+  <aside>
+
+    <code id = "radio"></code>
+
+  </aside>
+
+  <aside>
+
+    <code id = "sl" ></code>
+  </aside>
+  
+<aside>
+    <!-- Refererar till createfuntion funktionen som printar och skickar ifall du trycker antingen på gymmet eller ej-->
+    <!-- Även meddelandet som du skriver skickas upp här. Funktionen sendMessage i postmessage scriptet körs när du trycket på Send.-->
+  <br>Ditt namn: <input type="text" id="name"/> <a href="#" onclick="createFunction(true)"><br>Är på gymmet<br></a> <a href="#" onclick="createFunction(false)">Är inte på gymmet<br></a>
+  <br>Meddelande:<input type="text" id="Message"/> <button type="button" class="button3" onclick="sendMessage()"> Send </button>   
+
+</aside>
+  <aside>
+    <!-- Här visas allt som du skickat upp till gym funtionen, vilka som är på gymmet och inte.-->
+      <code id = "post" ></code>
+    </aside>
+
+  
+  </body>
+
+<!--Deklarerar alla javascript filer så de kan länkas -->
+      <script src="post.js"></script>
+      <script src="postmessage.js"></script>
+      <script src="sl.js"></script>
+      <script src="systembolaget.js"></script>
+      <script src="klocka.js"></script>
+      <script src="radio.js"></script>
+      <script src="vantetider.js"></script>
+      <script src="twitch.js"></script>  
+      <script src="weather.js"></script>
+
+
+  
+ 
+
+   
+</html>

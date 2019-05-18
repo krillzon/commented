@@ -1,0 +1,72 @@
+
+body {
+    background-image: url("https://images.pexels.com/photos/1308624/pexels-photo-1308624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+}
+
+code {
+   
+    border-radius: 6px;
+    color: black;
+    display: block;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding: 24px 15px;
+    text-align: center;
+  }
+
+header 
+{
+
+    background: white;
+    margin-top: 8px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 8px;
+  
+}
+
+h1{
+  color:green;
+}
+
+section,
+aside,
+footer {
+  margin: 0 1.5% 24px 1.5%;
+}
+section {
+    background: rgb(182, 39, 182);
+  float: left;
+  margin-left: 170px;
+  width: 64%;
+}
+
+
+aside {
+    background: white;
+  float: right;
+  width: 20%;
+  height: 20%;
+}
+footer {
+    width: 30%;
+  clear: both;
+  margin-bottom: 0;
+}
+
+
+
+.banner {
+    padding: 0.5em; 
+    background-color: green;
+    text-indent: 55em;
+}
+
+.test {
+  background: blue;
+float: left;
+margin-left: 170px;
+width: 64%;
+}
+
+
+
